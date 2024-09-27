@@ -8,7 +8,7 @@ n = int(input("Nhập vào số nguyên n: "))
 while n <= 0:
     n = int(input("Không đủ điều kiện vui lòng nhập lại số nguyên duong: "))
 tong = 0
-for i in range ( 1, n + 1):
-    tong += 1/((2*n) + 1)
+for i in range ( 0 , n + 1):
+    tong += 1/((2*i ) + 1)
 print("S= ", tong)
 
